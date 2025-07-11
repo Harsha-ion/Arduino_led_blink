@@ -1,0 +1,24 @@
+This is the Embedded C Program for the Task(LED Blinking).
+I tried doing this on the best Online Simulator Wowki.
+
+Code:
+void setup() {
+  // put your setup code here, to run once:
+  pinMode(13,OUTPUT);  //Declaring the pin 13 as Output.
+
+}
+
+void loop() {
+  // put your main code here, to run repeatedly:
+  digitalWrite(13,HIGH);
+  delay(920);
+  digitalWrite(13,LOW);//the delay cant be observed from 100milliseconds to below.
+  delay(920);
+
+}
+
+As mentioned in the comments of code, void setup() is used to declare the pins as Input/Output.
+void loop() is used to run the commands repeatedly.
+I selected the Pin13 on arduino Board as Output.
+Delay can be changed based on the system requirement. 
+Observe the different types of recordings for each delay mentioned(uploaded) in the project.
